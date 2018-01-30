@@ -66,5 +66,6 @@ $RECYCLE.BIN/
 
 # Custom
 tmp/
+build/
 
 # End of https://www.gitignore.io/api/linux,macos,windows
