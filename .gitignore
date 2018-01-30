@@ -64,5 +64,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Custom
+tmp/
 
 # End of https://www.gitignore.io/api/linux,macos,windows
