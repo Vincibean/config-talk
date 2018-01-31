@@ -1,5 +1,7 @@
-## Goodbye
+## Thanks
 
-Don't hesitate to give us feedback about [prez on GitHub](https://github.com/byteclubfr/prez)!
+You can find these slides on GitHub 
+
+[Go Grab Them!](https://github.com/Vincibean/config-talk)
 
 Thanks
