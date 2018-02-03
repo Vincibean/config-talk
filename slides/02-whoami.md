@@ -1,4 +1,4 @@
-## Who am I?
+## Who I Am
 
 Andrea Bessi
 - Software Developer

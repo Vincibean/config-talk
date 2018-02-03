@@ -1,4 +1,3 @@
-# TODO Talk Title
-## A Config Story
+## A Config Journey with Scala
 
 ![](images/magic.gif)
