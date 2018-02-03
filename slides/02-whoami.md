@@ -4,3 +4,4 @@ Andrea Bessi
 - Software Developer
 - Tinkerer
 - Village Idiot
+- Likes Interactive Talks
