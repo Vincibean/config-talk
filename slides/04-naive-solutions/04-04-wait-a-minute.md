@@ -1,1 +1,1 @@
-![](images/wait-a-minute.jpg)
+![](images/wait-a-second.jpg)
