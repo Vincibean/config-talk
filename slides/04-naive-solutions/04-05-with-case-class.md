@@ -1,4 +1,5 @@
-//TODO
+## Let's try with a case class
+
 ```scala
 for {
   app <- Play.maybeApplication
@@ -6,5 +7,6 @@ for {
   x <- conf.getString("foo")
   y <- conf.getInt("bar")
   ...
-} builderMethodWithALotOfParameters(x, y, z, ...)
+  container = Container(x, y, z, ...)
+} builderMethod(container)
 ```
