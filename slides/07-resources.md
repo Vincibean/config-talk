@@ -1,0 +1,4 @@
+- [Robert C. Martin's Clean Code Tip of the Week #10: Avoid Too Many Arguments](http://www.informit.com/articles/article.aspx?p=1375308)
+- [Phantom Types by Heiko Seeberger](https://blog.codecentric.de/en/2016/02/phantom-types-scala/)
+- [PureConfig](https://pureconfig.github.io/)
+- [Refined](https://github.com/fthomas/refined)
