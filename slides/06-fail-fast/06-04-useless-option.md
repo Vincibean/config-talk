@@ -1,3 +1,3 @@
-We are delaing with 'Option'
+We are dealing with 'Option'
 
 But do we really need them, here?
