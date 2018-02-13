@@ -1,5 +1,5 @@
 ```scala
-val optBuilder: Option[Builder] = for {
+val optBuilder: Option[Builder[FullConfig]] = for {
   app <- Play.maybeApplication
   conf <- app.getConfig
   logoutUrl <- conf.getString("saml.logout-url")
