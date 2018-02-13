@@ -1,4 +1,6 @@
-- [Robert C. Martin's Clean Code Tip of the Week #10: Avoid Too Many Arguments](http://www.informit.com/articles/article.aspx?p=1375308)
+- [Robert C. Martin's Clean Code Tip of the Week: Avoid Too Many Arguments](http://www.informit.com/articles/article.aspx?p=1375308)
 - [Phantom Types by Heiko Seeberger](https://blog.codecentric.de/en/2016/02/phantom-types-scala/)
+- [Builder Pattern](https://en.wikipedia.org/wiki/Builder_pattern)
+- [Telescoping Constructor Anti-Pattern](https://www.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997)
 - [PureConfig](https://pureconfig.github.io/)
 - [Refined](https://github.com/fthomas/refined)
