@@ -1,5 +1,7 @@
 ```scala
-Option(...).foreach { container => 
-  builderMethod(container)
+Option(...).foreach { x => 
+  SamlBuilder()
+  ...
+  .build()
 }
 ```
