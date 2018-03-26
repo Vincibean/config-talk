@@ -1,5 +1,5 @@
 ```scala
-val optBuilder: Option[Builder[FullConfig]] = for {
+val optBuilder: Option[SamlBuilder[FullConfig]] = for {
   app <- Play.maybeApplication
   conf <- app.getConfig
   logoutUrl <- conf.getString("saml.logout-url")
@@ -11,12 +11,12 @@ val optBuilder: Option[Builder[FullConfig]] = for {
   spEntityId <- conf.getString("saml.configs.sp-metadata-dir")
   callbackUrl <- conf.getString("saml.fallback-url")
   logoutUrl <- conf.getString("saml.logout-url")
-  maximumAuthenticationLifetime <- conf.underlying.getDuration("saml.configs.max-auth-lifetime", TimeUnit.MILLISECONDS)
+  maxAuthLifetime <- conf.underlying.getDuration("saml.configs.max-auth-lifetime", TimeUnit.MILLISECONDS)
 } yield SamlBuilder()
-         .withKeystorePath(keystorePath)
-         .withKeystorePassword(keystorePassword)
+         .withKeystorePath(keyStorePath)
+         .withKeystorePassword(keyStorePassword)
          .withPrivateKeyPassword(privateKeyPassword)
-         .withIdpMetadataPath(idpMetadata)
+         .withIdpMetadataPath(idpMetadataPath)
          .withSpEntityId(spEntityId)
          .withSamlClientName(samlClientName)
          .withCallbackUrl(callbackUrl)
