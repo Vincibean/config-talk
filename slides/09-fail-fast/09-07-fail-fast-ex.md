@@ -1,7 +1,7 @@
 ```scala
 val optBuilder: Option[SamlBuilder[FullConfig]] = for {
   app <- Play.maybeApplication
-  conf <- app.getConfig
+  conf = app.configuration
   logoutUrl <- conf.getString("saml.logout-url")
   keyStorePath <- conf.getString("saml.configs.keystore.path")
   keyStorePassword <- conf.getString("saml.configs.keystore.password")
