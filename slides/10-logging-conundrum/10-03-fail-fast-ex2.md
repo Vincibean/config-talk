@@ -2,8 +2,6 @@
 val optBuilder: Option[SamlBuilder[FullConfig]] = for {
   app <- Play.maybeApplication
   conf = app.configuration
-  logoutUrl <- conf.getString("saml.logout-url")
-  _ = Logger.debug(s"Logout URL is $logoutUrl")
   keyStorePath <- conf.getString("saml.configs.keystore.path")
   _ = Logger.debug(s"Keystore Path is $keyStorePath")
   keyStorePassword <- conf.getString("saml.configs.keystore.password")
