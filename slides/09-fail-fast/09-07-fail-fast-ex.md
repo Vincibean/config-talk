@@ -11,7 +11,7 @@ val optBuilder: Option[SamlBuilder[FullConfig]] = for {
   spEntityId <- conf.getString("saml.configs.sp-metadata-dir")
   callbackUrl <- conf.getString("saml.fallback-url")
   logoutUrl <- conf.getString("saml.logout-url")
-  maxAuthLifetime <- conf.underlying.getDuration("saml.configs.max-auth-lifetime", TimeUnit.MILLISECONDS)
+  maxAuthLifetime = conf.underlying.getDuration("saml.configs.max-auth-lifetime", TimeUnit.MILLISECONDS).millis 
 } yield SamlBuilder()
          .withKeystorePath(keyStorePath)
          .withKeystorePassword(keyStorePassword)
