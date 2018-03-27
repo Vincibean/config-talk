@@ -2,5 +2,6 @@
 - [Phantom Types by Heiko Seeberger](https://blog.codecentric.de/en/2016/02/phantom-types-scala/)
 - [Builder Pattern](https://en.wikipedia.org/wiki/Builder_pattern)
 - [Telescoping Constructor Anti-Pattern](https://www.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997)
+- [Scala with Cats](https://underscore.io/books/scala-with-cats/)
 - [PureConfig](https://pureconfig.github.io/)
 - [Refined](https://github.com/fthomas/refined)
