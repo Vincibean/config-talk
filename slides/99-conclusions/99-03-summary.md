@@ -1,0 +1,8 @@
+- First attempt
+  - 'Imperative' programming
+- Builder Pattern
+  - OOP, Design Patterns, Scala's type system (Phantom Types)
+- Semigroupal, Validated
+  - FP
+- PureConfig
+  - Shapeless, Macros
