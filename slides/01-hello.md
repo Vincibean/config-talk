@@ -1,3 +1,3 @@
-## A Config Journey with Scala
+### This is not the configuration talk you are looking for
 
-![](images/magic.gif)
+![](images/droids.jpg)
