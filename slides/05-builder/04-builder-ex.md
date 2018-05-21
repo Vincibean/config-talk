@@ -49,7 +49,7 @@ class SamlBuilder private(acc: SamlConfigsAccumulator) {
   def withMaximumAuthenticationLifetime(maxAuthLifetime: FiniteDuration): SamlBuilder = 
     SamlBuilder(acc.copy(maximumAuthenticationLifetime = maxAuthLifetime))
 
-  def build: Unit = {
+  def build(): Unit = {
     BaseConfig.setDefaultLogoutUrl(acc.logoutUrl)
 
     val saml2Client = new Saml2Client()
