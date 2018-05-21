@@ -10,6 +10,6 @@ for {
   samlClientName <- conf.getString("saml.configs.saml-url.enabled-domains.client-name")
   spEntityId <- conf.getString("saml.configs.sp-metadata-dir")
   callbackUrl <- conf.getString("saml.fallback-url")
-  maximumAuthenticationLifetime <- conf.underlying.getDuration("saml.configs.max-auth-lifetime", TimeUnit.MILLISECONDS)
+  maximumAuthenticationLifetime = conf.underlying.getDuration("saml.configs.max-auth-lifetime", TimeUnit.MILLISECONDS)
 } builderMethod(logoutUrl, keyStorePath, keyStorePassword, privateKeyPassword, idpMetadataPath, samlClientName, spEntityId, callbackUrl, maximumAuthenticationLifetime)
 ```
