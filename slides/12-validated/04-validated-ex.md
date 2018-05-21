@@ -15,6 +15,7 @@ val valBuilder: Validated[NonEmptyVector[String], SamlBuilder[FullConfig]] = (
   .withLogoutUrl(loUrl)
   .withKeystorePath(ksPath)
   .withIdpMetadataPath(idpPath)
+)
 
 val eBuilder = valBuilder.toEither
 eBuilder.left.foreach(nev => Logger.error(nev.toVector.mkString(", ")))
